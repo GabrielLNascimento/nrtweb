@@ -21,8 +21,8 @@ function App() {
         <div className="content">
           {/* Título à esquerda */}
           <div className="title">
-            <h1>Primeira linha do título</h1>
-            <h2>Segunda linha do título</h2>
+            <h1>Primeira linha do título!</h1>
+            <h2>Segunda linha do título!</h2>
           </div>
 
           {/* Imagem à direita */}
