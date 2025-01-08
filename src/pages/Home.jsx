@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <div className="content">
         <h1>
-          Título <br /> de Duas Linhas
+          NAREAL <br /> TEENS
         </h1>
         <div className="image-container">
           <img src="sua-imagem-aqui.png" alt="Imagem Exemplo" />
