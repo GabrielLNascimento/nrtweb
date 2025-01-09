@@ -5,10 +5,12 @@ const Home = () => {
     <div className="home">
       <div className="content">
         <h1>
-          NAREAL <br /> TEENS
+          <span className='titulo1'>NAREAL</span>
+           <br /> 
+          <span className='titulo2'>TEENS</span>
         </h1>
         <div className="image-container">
-          <img src="sua-imagem-aqui.png" alt="Imagem Exemplo" />
+          <img src="/img/quadro-foto.png" alt="Imagem Exemplo" />
         </div>
       </div>
     </div>
