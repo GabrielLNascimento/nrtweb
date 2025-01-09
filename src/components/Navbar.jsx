@@ -18,9 +18,14 @@ const Navbar = () => {
 
       {/* Menu lateral */}
       <div className={`sidebar ${menuOpen ? 'open' : ''}`}>
-        <button className="close-button" onClick={toggleMenu}>
+        <div className='container-buttons'>
+          <button>Entrar</button>
+          {/* colocar imagem do usuario */}
+        </div>
+        
+        {/* <button className="close-button" onClick={toggleMenu}>
           ✖
-        </button>
+        </button> */}
         <nav className="menu-links">
           <Link to="/" onClick={toggleMenu}>Home</Link>
           <Link to="/contato" onClick={toggleMenu}>Contato</Link>
